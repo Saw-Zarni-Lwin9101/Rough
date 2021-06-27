@@ -1,0 +1,33 @@
+section p:last-child{
+	text-align: right;
+}
+
+.for_lastp{
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.ref a{
+	text-align: left;
+	display: block;
+	/*background-color: red;*/
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.res{
+		font-size: 12px;
+	}
+}
+
+footer{
+	margin: 0;
+	border-radius: 0;
+	/*position: fixed;*/
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
